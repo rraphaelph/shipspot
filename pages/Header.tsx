@@ -57,12 +57,12 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <button
-            className="mobile-nav-toggle bi-x "
-            onClick={() => setMobileNavOpen(false)}
-              >
-                    X
-          </button>
+            {mobileNavOpen ?            <button
+              className="mobile-nav-toggle bi-x "
+              onClick={() => setMobileNavOpen(false)}>
+                      X
+            </button> :''}
+
           </div>
 
         </nav>
