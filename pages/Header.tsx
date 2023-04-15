@@ -12,8 +12,6 @@ function Header() {
     }else{
       $('#navbar').addClass('navbar');
     }
-
-    console.log(mobileNavOpen);
   }
 
 
