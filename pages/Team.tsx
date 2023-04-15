@@ -5,6 +5,7 @@ import Image from 'next/image'
 
 import team1 from './assets/img/team/team-1.jpg';
 import team2 from './assets/img/team/team-2.jpg';
+
 const Team = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, delay: 200 });
